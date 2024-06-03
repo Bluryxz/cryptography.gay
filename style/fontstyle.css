@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Tittle;
+    src: url(font/RAYDIS.woff2);
+}
+
+@font-face {
+    font-family: Main;
+    src: url(font/Rubik-Light.woff2);
+}
+
+@font-face {
+    font-family: Header;
+    src: url(font/KanitCyrillic.woff2);
+}
+
+@font-face {
+    font-family: Buttom;
+    src: url(font/Rubik-Light.woff2);
+}
+
+@font-face {
+    font-family: Left-cont;
+    src: url(font/RussoOne-Regular.woff2);
+}
+
+@font-face {
+    font-family: Left-cont2;
+    src: url(font/RubikMonoOne-Regular.woff2);
+}
+
+@font-face {
+    font-family: Quotes;
+    src: url(font/Poppins-Black.woff2);
+}

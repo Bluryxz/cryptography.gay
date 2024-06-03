@@ -1,0 +1,86 @@
+footer {
+    display: block;
+    flex-direction: column;
+    justify-items: end;
+    margin-top: 100px;
+}
+
+footer>#huinya {
+    height: 20px;
+    width: 100%;
+    left: 0px;
+    height: 45px;
+    background-color: rgb(21, 18, 40);
+    mask: url("https://a.foxford.ngcdn.ru/assets/webpack/images/angle.292339b3.svg") center center / 100% 100% no-repeat;
+    transform: scaleY(-1);
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(21, 18, 40);
+
+}
+
+#mainfooter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-inline:200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.block>.tittle {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.756);
+    font-family: Tittle;
+    margin-top: 20px;
+}
+
+.block>span {
+    font-family: Header;
+    font-size: 18px;
+    color: rgb(128, 119, 148);
+    margin-top: 5px;
+}
+
+#block21 {
+    margin-bottom: 30px;
+}
+
+#block4>img {
+    width: 100%;
+    opacity: 0.7;
+}
+
+.horizontal-line5 {
+    height: 1px;
+    width: 200px;
+    background-color: rgba(119, 114, 114, 0.351);
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 1630px) {
+    #nefor {
+        margin-top: 50px
+    }
+}
+
+@media(max-width: 1022px) {
+    #main-footer {
+        justify-content: center;
+    }
+    .block {
+        margin: 0;
+        margin-top: 35px;
+    }
+}
